@@ -11,6 +11,7 @@
 		749E440E1F41041F0064F818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749E440D1F41041F0064F818 /* Assets.xcassets */; };
 		749E44111F41041F0064F818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749E440F1F41041F0064F818 /* Main.storyboard */; };
 		74B588741F437A1F00B2FB31 /* NSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B588731F437A1F00B2FB31 /* NSButton.swift */; };
+		74B588761F439D4900B2FB31 /* ClickBlockingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B588751F439D4900B2FB31 /* ClickBlockingView.swift */; };
 		74C0B4851F429E2C002DCDF6 /* ToolbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0B4841F429E2C002DCDF6 /* ToolbarVC.swift */; };
 		74C0B4871F429E54002DCDF6 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0B4861F429E54002DCDF6 /* ChannelVC.swift */; };
 		74C0B4891F429E83002DCDF6 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0B4881F429E83002DCDF6 /* ChatVC.swift */; };
@@ -25,6 +26,7 @@
 		749E44101F41041F0064F818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		749E44121F41041F0064F818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74B588731F437A1F00B2FB31 /* NSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSButton.swift; sourceTree = "<group>"; };
+		74B588751F439D4900B2FB31 /* ClickBlockingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickBlockingView.swift; sourceTree = "<group>"; };
 		74C0B4841F429E2C002DCDF6 /* ToolbarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarVC.swift; sourceTree = "<group>"; };
 		74C0B4861F429E54002DCDF6 /* ChannelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		74C0B4881F429E83002DCDF6 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		74C0B4821F429DF3002DCDF6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				74B588751F439D4900B2FB31 /* ClickBlockingView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				74C0B4851F429E2C002DCDF6 /* ToolbarVC.swift in Sources */,
 				74C0B4871F429E54002DCDF6 /* ChannelVC.swift in Sources */,
 				749E440A1F41041F0064F818 /* AppDelegate.swift in Sources */,
+				74B588761F439D4900B2FB31 /* ClickBlockingView.swift in Sources */,
 				74C0B48B1F42A14E002DCDF6 /* MainWindowController.swift in Sources */,
 				74C0B48E1F42A21D002DCDF6 /* Constants.swift in Sources */,
 				74B588741F437A1F00B2FB31 /* NSButton.swift in Sources */,
