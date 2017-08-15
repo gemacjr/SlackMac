@@ -9,11 +9,31 @@
 import Cocoa
 
 class ChannelVC: NSViewController {
+    
+    
+    @IBOutlet weak var userNameLbl: NSTextField!
+    @IBOutlet weak var addChannelBtn: NSButton!
+    @IBOutlet weak var tableView: NSTableView!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.wantsLayer = true
-        view.layer?.backgroundColor = chatPurple.cgColor
+        
     }
     
+    override func viewWillAppear() {
+        setUpView()
+    }
+    
+    @IBAction func addChannelClicked(_ sender: Any) {
+    }
+    
+    
+    func setUpView() {
+        view.wantsLayer = true
+        view.layer?.backgroundColor = chatPurple.cgColor
+        
+        addChannelBtn.styleButtonText(button: addChannelBtn, buttonName: "Add +", fontColor: .controlColor, alignment: .center, font: AVENIR_REGULAR, size: 13)
+    }
 }
