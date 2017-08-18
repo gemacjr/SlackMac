@@ -37,17 +37,20 @@
                         <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nin-br-Aac" userLabel="email stack view">
                             <rect key="frame" x="0.0" y="79" width="200" height="23"/>
                             <subviews>
-                                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhY-hD-cnS" userLabel="email">
+                                <textField focusRingType="none" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhY-hD-cnS" userLabel="email">
                                     <rect key="frame" x="-2" y="1" width="204" height="22"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="22" id="C3u-Fv-Qes"/>
                                         <constraint firstAttribute="width" constant="200" id="uCK-J5-oO9"/>
                                     </constraints>
-                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" placeholderString="email" id="obz-eh-43V">
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" focusRingType="none" placeholderString="email" id="obz-eh-43V">
                                         <font key="font" size="13" name="AvenirNext-Regular"/>
                                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
+                                    <connections>
+                                        <outlet property="nextKeyView" destination="epU-lI-kkZ" id="mS9-LS-4DJ"/>
+                                    </connections>
                                 </textField>
                                 <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="PAw-ly-rZZ">
                                     <rect key="frame" x="0.0" y="-2" width="200" height="5"/>
@@ -68,13 +71,13 @@
                         <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cLe-mY-cpo" userLabel="password stack view">
                             <rect key="frame" x="0.0" y="44" width="200" height="23"/>
                             <subviews>
-                                <secureTextField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epU-lI-kkZ" userLabel="password">
+                                <secureTextField focusRingType="none" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epU-lI-kkZ" userLabel="password">
                                     <rect key="frame" x="-2" y="1" width="204" height="22"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="22" id="05L-dx-XWn"/>
                                         <constraint firstAttribute="width" constant="200" id="4dH-e1-Zcg"/>
                                     </constraints>
-                                    <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" alignment="left" placeholderString="password" usesSingleLineMode="YES" id="ziG-fx-tfq">
+                                    <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" focusRingType="none" alignment="left" placeholderString="password" usesSingleLineMode="YES" id="ziG-fx-tfq">
                                         <font key="font" size="13" name="AvenirNext-Regular"/>
                                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -82,6 +85,9 @@
                                             <string>NSAllRomanInputSourcesLocaleIdentifier</string>
                                         </allowedInputSourceLocales>
                                     </secureTextFieldCell>
+                                    <connections>
+                                        <outlet property="nextKeyView" destination="GhY-hD-cnS" id="crp-LC-lUU"/>
+                                    </connections>
                                 </secureTextField>
                                 <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="6rm-Pe-kh0">
                                     <rect key="frame" x="0.0" y="-2" width="200" height="5"/>
