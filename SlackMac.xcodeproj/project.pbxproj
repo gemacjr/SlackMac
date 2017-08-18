@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743D45D91F44D18F00A2D5AF /* ModalLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 743D45D81F44D18F00A2D5AF /* ModalLogin.xib */; };
+		747FAEBE1F4689C100A25DBC /* ModalLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FAEBD1F4689C100A25DBC /* ModalLogin.swift */; };
 		749E440A1F41041F0064F818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749E44091F41041F0064F818 /* AppDelegate.swift */; };
 		749E440E1F41041F0064F818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749E440D1F41041F0064F818 /* Assets.xcassets */; };
 		749E44111F41041F0064F818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749E440F1F41041F0064F818 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		743D45D81F44D18F00A2D5AF /* ModalLogin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalLogin.xib; sourceTree = "<group>"; };
+		747FAEBD1F4689C100A25DBC /* ModalLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalLogin.swift; sourceTree = "<group>"; };
 		749E44061F41041F0064F818 /* SlackMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlackMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		749E44091F41041F0064F818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		749E440D1F41041F0064F818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		743D45D71F44D15200A2D5AF /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				743D45D81F44D18F00A2D5AF /* ModalLogin.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
 		749E43FD1F41041F0064F818 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +76,7 @@
 		749E44081F41041F0064F818 /* SlackMac */ = {
 			isa = PBXGroup;
 			children = (
+				743D45D71F44D15200A2D5AF /* Xibs */,
 				74C0B48C1F42A1EF002DCDF6 /* Utilities */,
 				74C0B4831F429DFB002DCDF6 /* Controller */,
 				74C0B4821F429DF3002DCDF6 /* View */,
@@ -87,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				74B588751F439D4900B2FB31 /* ClickBlockingView.swift */,
+				747FAEBD1F4689C100A25DBC /* ModalLogin.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -172,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				749E440E1F41041F0064F818 /* Assets.xcassets in Resources */,
+				743D45D91F44D18F00A2D5AF /* ModalLogin.xib in Resources */,
 				749E44111F41041F0064F818 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74C0B4891F429E83002DCDF6 /* ChatVC.swift in Sources */,
+				747FAEBE1F4689C100A25DBC /* ModalLogin.swift in Sources */,
 				74C0B4851F429E2C002DCDF6 /* ToolbarVC.swift in Sources */,
 				74C0B4871F429E54002DCDF6 /* ChannelVC.swift in Sources */,
 				749E440A1F41041F0064F818 /* AppDelegate.swift in Sources */,
